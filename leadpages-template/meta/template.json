@@ -1,0 +1,368 @@
+{
+	"id": "The Ultimate Webinar",
+	"name": "The Ultimate Webinar Page", 
+	"mobile": true, 
+	"notes": "version 1.111", 
+	"syntax": 4, 
+	"version": 1.111,
+	"style": {
+		"html": "",
+		"replacements": [
+
+        {
+            "type": "color",
+            "name": "Timer background",
+            "find": "#656564"
+        },
+        {
+            "type": "color",
+            "name": "body text",
+            "find": "#111111"
+        },
+        {
+            "type": "color",
+            "name": "Hero Img Darkening",
+            "find": "#000001"
+        },
+        {
+            "type": "color",
+            "name": "Button Color",
+            "find": "#E00A14"
+        },
+        {
+            "type": "color",
+            "name": "Button Hover Color",
+            "find": "#E00A15"
+        },
+         {
+            "type": "color",
+            "name": "Ordered List gradient top",
+            "find": "#666"
+        },
+         {
+            "type": "color",
+            "name": "Ordered List gradient bottom",
+            "find": "#020202"
+        },
+         {
+            "type": "color",
+            "name": "Section4 background",
+            "find": "#656563"
+        }
+
+
+			
+		]
+	},
+	"form": {
+        "title": {
+            "css": {
+                "font-family": "Open Sans, sans-serif",   
+                "font-size": "18pt;",
+                "letter-spacing": "0em;"
+            },
+            "html": "<strong>Enter your email address below to reserve _______... it's 100% FREE!</strong>"
+        },
+        "submit": {
+            "css": {
+                "background-color": "#ffcb01;",
+                "border-color": "#ffb403;",
+                "border-width": "0pt;",
+                "border-style": "solid;",
+                "font-family": "Helvetica, Arial, sans-serif",
+                "font-size": "14pt;",
+                "letter-spacing": "-0.1em;"
+            },
+            "html": "Free Instant Access &raquo;"
+        },
+        "privacy": {
+            "css": {
+                "font-family": "Helvetica, Arial, sans-serif",
+                "font-size": "12pt;",
+                "letter-spacing": "-0.1em;"
+            },
+            "html": "<div><i class=\"icon-lock\"></i>We hate SPAM and promise to keep your email address safe. </div>"
+        }
+    },
+	"elements": [
+		
+        {
+            "id": "header",
+            "name": "Header container",
+            "type": "container"
+        },
+        {
+            "id": "hero",
+            "name": "Hero container",
+            "type": "container"
+        },
+        {
+            "id": "buttonHolder1",
+            "name": "Button1 container",
+            "type": "container"
+        },
+         {
+            "id": "buttonHolder2",
+            "name": "Button1 container",
+            "type": "container"
+        },
+         {
+            "id": "buttonHolder3",
+            "name": "Button1 container",
+            "type": "container"
+        },
+         {
+            "id": "section1",
+            "name": "section1 container",
+            "type": "container"
+        },
+        {
+            "id": "section1a",
+            "name": "section1 container",
+            "type": "container"
+        },
+        
+        {
+            "id": "section2",
+            "name": "section2 container",
+            "type": "container"
+        },
+        {
+            "id": "section2Left",
+            "name": "section2 Left container",
+            "type": "container"
+        },
+        {
+            "id": "section2Right",
+            "name": "section2 Right container",
+            "type": "container"
+        },
+
+        {
+            "id": "section3",
+            "name": "section3 container",
+            "type": "container"
+        },
+        {
+            "id": "section4",
+            "name": "section4 container",
+            "type": "container"
+        },
+
+        {
+            "id": "presenter1",
+            "name": "presenter1 container",
+            "type": "container"
+        },
+        {
+            "id": "dateOptin",
+            "name": "Section2 Right Optin container",
+            "type": "container"
+        },
+        {
+            "id": "schedules1",
+            "name": "Schedules container",
+            "type": "container"
+        },
+        {
+            "id": "site-footer",
+            "name": "footer container",
+            "type": "container"
+        },
+         {
+            "id": "line1",
+            "name": "Line Divider 1",
+            "type": "container"
+        },
+        {
+            "id": "line2",
+            "name": "Line Divider 2",
+            "type": "container"
+        },
+
+
+
+
+        {
+            "id": "logo",
+            "name": "Logo Img",
+            "type": "image"
+        },
+         {
+            "id": "heroBg",
+            "name": "Hero Background Img",
+            "type": "image"
+        },
+         {
+            "id": "presenter1Img",
+            "name": "Presenter1 Img",
+            "type": "image"
+        },
+
+
+
+
+
+
+
+
+         {  
+            "id": "button1",
+            "name": "Button 1",
+            "type": "link"
+        },
+        {  
+            "id": "button2",
+            "name": "Button 2",
+            "type": "link"
+        },
+        {  
+            "id": "button3",
+            "name": "Button 3",
+            "type": "link"
+        },
+        {  
+            "id": "presenter1Link",
+            "name": "Presenter 1 Link",
+            "type": "link"
+        },
+
+
+
+
+        {
+            "id": "brought",
+            "name": "Brought By",
+            "type": "text"
+        },
+        {
+            "id": "logoText",
+            "name": "Logo Text",
+            "type": "text"
+        },
+        {
+            "id": "heroHeadline",
+            "name": "Headline",
+            "type": "text"
+        },
+        {
+            "id": "heroSubHead",
+            "name": "SubHeadline",
+            "type": "text"
+        },
+         {
+            "id": "heroJoin",
+            "name": "Join Text",
+            "type": "text"
+        },
+         {
+            "id": "heroDate",
+            "name": "Date Text",
+            "type": "text"
+        },
+
+
+        {
+            "id": "days-text",
+            "name": "days",
+            "type": "text"
+        },
+        {
+            "id": "hours-text",
+            "name": "hours",
+            "type": "text"
+        },
+        {
+            "id": "minutes-text",
+            "name": "minutes",
+            "type": "text"
+        },
+        {
+            "id": "seconds-text",
+            "name": "seconds",
+            "type": "text"
+        },
+        {
+            "id": "craftQuote",
+            "name": "Craft Quote",
+            "type": "text"
+        },
+        {
+            "id": "presenter1Text",
+            "name": "Presenter1 Text",
+            "type": "text"
+        },
+        {
+            "id": "section2RightQuote",
+            "name": "Section2 Quote",
+            "type": "text"
+        },
+          {
+              "id": "date1a",
+              "name": "date 1a",
+              "type": "text"
+          },
+           {
+              "id": "dateloc1",
+              "name": "Date location 1",
+              "type": "text"
+          },
+          {
+              "id": "dateloc2",
+              "name": "Date location 2",
+              "type": "text"
+          },
+          {
+              "id": "dateloc3",
+              "name": "Date location 3",
+              "type": "text"
+          },
+          {
+              "id": "bulletList",
+              "name": "Date location 3",
+              "type": "text"
+          },
+           {
+              "id": "section4Text",
+              "name": "Date location 3",
+              "type": "text"
+          },
+          {
+              "id": "footerList",
+              "name": "Footer Links",
+              "type": "text"
+          },
+          {
+              "id": "copyright",
+              "name": "copyright text",
+              "type": "text"
+          },
+          {
+              "id": "presenter1Name",
+              "name": "Presenter Name text",
+              "type": "text"
+          },
+           {
+              "id": "countdownHeadline",
+              "name": "Countdown Headline text",
+              "type": "text"
+          },
+          
+
+
+
+
+
+
+        {
+            "id": "timer",
+            "name": "countdown Timer",
+            "type": "countdown"
+        }
+
+
+
+	]
+}
+
+

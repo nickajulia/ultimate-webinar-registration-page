@@ -1,0 +1,30 @@
+//_largecreen.scss
+
+// large screens
+@media only screen and (min-width: 64.063em) {
+
+
+.beerImg{
+  filter:blur(10px);
+  width: 100%;
+  position: relative;
+  left: 0;
+  z-index: -2;
+}
+
+img.bg{
+    min-width: 1024px;
+}
+
+#hero {
+  h1{
+  color: #ffffff;
+  font-family: Oswald, sans-serif;
+  font-size: calc(55px);
+  font-weight: bold;
+  }
+
+}
+
+
+  } /* min-width 641px, medium screens */

@@ -1,0 +1,173 @@
+//_mediumscreen.scss
+
+// Medium screens
+@media only screen and (min-width: 49.063em) { 
+
+
+
+/*-- header  --*/
+
+.logo {
+	display: block;
+	float: left;
+	//height: calc(100px);
+	}
+.headSpace{
+	margin-top: 1.2rem;
+  margin-bottom: calc(20px);
+}
+
+.msb{
+  font-family: 'Open Sans', sans-serif;
+  font-size: calc(30px);
+  letter-spacing: -1.5px;
+  font-weight: 600;
+}
+
+/*-- hero  --*/
+
+.darkBeer{
+ position: absolute;
+ top: 0;
+ float: left;
+ width: 100%;
+ z-index: -1;
+  &:before{
+
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0, 0.5);
+  -moz-transition: background .3s linear;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
+  }
+
+}
+
+
+.beerImg{
+  filter:blur(10px);
+  width: 100%;
+  position: relative;
+  left: 0;
+  z-index: -2;
+  height: 55rem;
+}
+
+#hero {
+  h1{
+  color: #ffffff;
+  font-family: Oswald, sans-serif;
+  font-size: calc(50px);
+  font-weight: bold;
+  }
+  #hero h2{
+    color: #ffffff;
+    font-family: Oswald, sans-serif;
+    font-size: calc(72px);
+    font-weight: 300;
+
+  }
+  p{
+  color: #ffffff;
+  font-family: Oswald, sans-serif;
+  font-size: calc(30px);
+  font-weight: 300;
+
+  }
+  .date{
+     color: #ffffff;
+    font-family: Oswald, sans-serif;
+    font-size: calc(40px);
+    font-weight: bold;
+  }
+
+
+}
+
+.line{
+  background-color: #ffffff;
+  height: calc(1px);
+
+}
+
+.redBtn, .redBtn2{
+    background-color: #E00A14;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+   -webkit-box-shadow: 1px 1px 1px 1px #000;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    1px 1px 1px 1px #000;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         1px 1px 1px 1px #000;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  transition: all .2s ease-in-out;
+  white-space: normal;
+  font-size: calc(30px) !important;
+
+  &:hover{
+    transform: scale(1.1);
+     background-color: #E00A14;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+   -webkit-box-shadow: 1px 1px 1px 1px #000;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    1px 1px 1px 1px #000;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         1px 1px 1px 1px #000;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  transition: all .2s ease-in-out;
+  white-space: normal;
+  text-decoration: none;
+  }
+
+}
+.redBtn2
+{
+  font-size: calc(22px) !important;
+}
+
+
+.countdown {
+	li{
+		margin: 0 0px !important;
+		span{
+			font-size: calc(90px)!important;
+			font-weight: 100!important;
+			line-height: 90px!important;
+		}
+	}
+}
+
+
+/*--- section 3 schedules */
+
+//.schedules{float: left; margin-left: 20px;}
+.schedules p.date{
+  //color: #1f9fed; 
+  font-size: 18px; margin: 8px auto 17px auto; padding: 0; }
+.schedules ul.dateLocationList{ padding: 0; margin: 0 0 0 10px; }
+.schedules ul.dateLocationList li{list-style: none;}
+.schedules ul.dateLocationList li:before{ 
+    /* For a round bullet */
+      content:'\2022';
+      /* For a square bullet */
+      /*content:'\25A0';*/
+      display: block;
+      position: relative;
+      max-width: 0px;
+      max-height: 0px;
+      left: 25px;
+      top: -0px;
+      //color: #1fa0e6;
+      font-size: 35px;
+      line-height: calc(26px);}
+    
+.schedules ul.dateLocationList li p
+{margin: 0 0 0 10px; padding: 0; color: #332d2d; font-size: calc(16px) !important;}
+
+
+
+
+
+  } /* min-width 641px, medium screens */
